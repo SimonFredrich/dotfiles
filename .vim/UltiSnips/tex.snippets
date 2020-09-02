@@ -45,19 +45,19 @@ snippet template "Basic template" b
 \end{document}
 endsnippet
 
-snippet 2dvm "2d vector matrix" 
+snippet 2dvm "2d vector matrix" i
 \\begin{pmatrix} $1 \\\\ $2 \end{pmatrix}
 endsnippet
 
-snippet 3dvm "3d vector matrix"
+snippet 3dvm "3d vector matrix" i
 \\begin{pmatrix} $1 \\\\ $2 \\\\ $3 \end{pmatrix}
 endsnippet
 
-snippet vec "vector"
+snippet vec "vector" i
 \\vec{$1}
 endsnippet
 
-snippet ora "overrightarrow"
+snippet ora "overrightarrow" i
 \\overrightarrow{$1}
 endsnippet
 
@@ -69,8 +69,20 @@ snippet bf "bold text"
 \\textbf{$1}
 endsnippet
 
-snippet * "dot product" 
+snippet * "dot product" i
 \\cdot $1
+endsnippet
+
+snippet 2dp "2d point" i
+$1($2|$3)
+endsnippet
+
+snippet 3dp "3d point" i
+$1($2|$3|$4)
+endsnippet
+
+snippet bvl "big vertical line" i
+\\bbig\\vert $1
 endsnippet
 
 snippet beg "begin{} / end{}" bA
