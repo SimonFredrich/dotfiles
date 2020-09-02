@@ -1,7 +1,8 @@
 #!/bin/bash
 
 echo "copy .vim"
-sudo cp .vim ~/.vim
+sudo cp -r .vim/UltiSnips ~/.vim
+sudo cp -r .vim/autoload ~/.vim
 echo "copy .vimrc"
 sudo cp .vimrc ~/.vimrc
 echo "copy .Xresources" 
