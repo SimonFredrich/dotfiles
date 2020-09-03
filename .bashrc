@@ -117,6 +117,6 @@ if ! shopt -oq posix; then
 fi
 
 
-cd ../../mnt/8668734168732F55/
-[[ $TERM != "screen" ]] && exec tmux
+#cd ../../mnt/8668734168732F55/
+#[[ $TERM != "screen" ]] && exec zsh
 
